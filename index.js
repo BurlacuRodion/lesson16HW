@@ -31,3 +31,7 @@ function expFunc(str) {
 const decFunc = function(str) {
     for (let i=0;i<str.length;i++) console.log('decFunc', str[i])
 }
+
+arrFunc('123')
+expFunc('567')
+decFunc('896')
